@@ -1,0 +1,15 @@
+.idea
+.vscode
+.DS_Store*
+*~
+*.swp
+/node_modules
+*/.gradle
+.gradle
+/build
+*/build
+out
+.idea
+*.ipr
+*.iws
+*.iml

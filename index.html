@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="header">
+    <img src="./assets/images/avatar.jpg" alt="Viktar Svintsitski" class="header-avatar">
+    <div class="header-text">
+      <h1 class="header-text-h1">
+        Viktar Svintsitski
+      </h1>
+      <a href="https://github.com/jetalai3" class="header-github__link">Github</a>
+      <ul class="header-text-contact__list">
+        <li class="header-text-contact__list-item">
+          Telegram: +375336205656
+        </li>
+        <li class="header-text-contact__list-item">
+          /
+        </li>
+        <li class="header-text-contact__list-item">
+            Skype: live:85f6f8f2ea25b688
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="dropdown">
+      <input type="checkbox" id="hd-1" class="hide"/>
+      <label for="hd-1">Education</label>
+      <div>
+          <ul class="education__list">
+            <li class="education__list__item">
+                  Gymnasium N0.1, Grodno, Belarus, 1998 - 2009 
+            </li>
+            <li class="education__list__item">
+                Belarusian State University of Informatics And Radioelectronics, 2009 - 2014 <br>
+                Faculty: Computer Systems and Networks <br>
+                Specialization: System engineer
+            </li>
+            <li class="education__list__item">
+                <a href="https://app.rs.school/certificate/l37syxw8">Rollig Scopes School - Javascript (2019)</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div class="iframe-container hidden">
+      <div class="iframe-mode">
+        <iframe class="iframe" src="./projects/repair-design-project/index.html" >Your browser does not support iframe</iframe>
+        <div class="iframe-button-container">
+          <button class="size-button">Mobile</button>
+          <button class="back-button">Back</button>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel">
+          <div class="control left">
+            <button class="arrow left">&lt;</button>
+          </div>
+          <div class="items-container">
+            <div class="item active">
+              <div class="description">
+                <div class="project-name">
+                  THEYALOW <br>
+                  html + css markup <br>
+                  mobile support <br>
+                  Press the image to see the project
+                </div>
+                <img class="yalow-preview" src="./assets/images/theyalow.png" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="description">
+                <div class="project-name">
+                  REPAIR DESIGN PROJECT <br>
+                  mobile support <br>
+                  custom checkboxes <br>
+                  Press the image to see the project
+                </div>
+                <img class="rdp-preview" src="./assets/images/repair-design-project.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="control right">
+            <button class="arrow right">&gt;</button>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
